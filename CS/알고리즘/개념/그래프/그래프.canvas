@@ -3,10 +3,10 @@
 		{"id":"51f5159265deec7d","type":"text","text":"## 최단 거리","x":-180,"y":-760,"width":250,"height":50},
 		{"id":"2810f94e78d9e35b","type":"text","text":"한 정점에서 한 정점 사이 거리","x":-430,"y":-560,"width":250,"height":60},
 		{"id":"06bd32558c89044f","type":"text","text":"모든 정점 사이 최단 거리","x":70,"y":-560,"width":250,"height":60},
-		{"id":"90e68bee49c16956","type":"file","file":"CS/알고리즘/그래프/다익스트라.md","x":-505,"y":-400,"width":400,"height":400},
-		{"id":"a5d26aaead1b319d","type":"file","file":"CS/알고리즘/그래프/플로이드 와샬.md","x":-5,"y":-400,"width":400,"height":400},
+		{"id":"90e68bee49c16956","type":"file","file":"CS/알고리즘/개념/그래프/다익스트라.md","x":-505,"y":-400,"width":400,"height":400},
+		{"id":"a5d26aaead1b319d","type":"file","file":"CS/알고리즘/개념/그래프/플로이드 와샬.md","x":-5,"y":-400,"width":400,"height":400},
 		{"id":"b7c89478c2aa4d13","type":"text","text":"## 최소 신장 트리","x":-180,"y":-1120,"width":250,"height":50},
-		{"id":"dedc80c747b94e66","type":"file","file":"CS/알고리즘/그래프/크루스칼 알고리즘.md","x":-255,"y":-1660,"width":400,"height":400},
+		{"id":"dedc80c747b94e66","type":"file","file":"CS/알고리즘/개념/그래프/크루스칼 알고리즘.md","x":-255,"y":-1660,"width":400,"height":400},
 		{"id":"8523770bfcba78fd","type":"text","text":"# 그래프","x":-217,"y":-980,"width":325,"height":100,"color":"2"}
 	],
 	"edges":[
