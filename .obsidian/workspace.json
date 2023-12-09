@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82b4fb67517092f6",
+        "id": "8498fff412d74d20",
         "type": "tabs",
         "children": [
           {
-            "id": "e1b8ad7e053d4892",
+            "id": "3ef40c6d7aee8466",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "계획표/2023-10/2023-10-07.md",
+                "file": "계획표/2023-12/2023-12-08.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.50418853759766
+    "width": 396.5
   },
   "right": {
     "id": "d7fdcfeb3a497b5a",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "계획표/2023-10/2023-10-07.md",
+                "file": "계획표/2023-12/2023-12-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "계획표/2023-10/2023-10-07.md",
+                "file": "계획표/2023-12/2023-12-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "계획표/2023-10/2023-10-07.md"
+                "file": "계획표/2023-12/2023-12-08.md"
               }
             }
           }
@@ -156,8 +156,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1b8ad7e053d4892",
+  "active": "3ef40c6d7aee8466",
   "lastOpenFiles": [
+    "개인적으로 생각하는개발 주의 사항.md",
+    "계획표/2023-12/2023-12-08.md",
+    "계획표/2023-12/2023-12-07.md",
+    "계획표/2023-12/2023-12.md",
+    "계획표/2023-12",
+    "계획표/2023-12/2023-12-06.md",
+    "CS/알고리즘/문제집/백준/06.DP/합분해.md",
+    "N-Queen.md",
+    "계획표/2023-12/2023-12-05.md",
+    "image/Pasted image 20231205203036.png",
+    "image/Pasted image 20231205193549.png",
+    "CS/디자인 패턴/클린 아키텍처/Untitled.canvas",
+    "Untitled 1.md",
+    "CS/디자인 패턴/클린 아키텍처.md",
+    "CS/디자인 패턴/Untitled.md",
+    "CS/디자인 패턴/클린 아키텍처/클린 아키텍처.md",
+    "CS/디자인 패턴/클린아키텍처",
+    "CS/디자인 패턴/디자인 패턴.md",
+    "CS/디자인 패턴/클린 아키텍처",
+    "CS/디자인 패턴",
+    "계획표/2023-12-04.md",
+    "CS/알고리즘/문제집/백준/01.Array/OX 퀴즈.md",
+    "CS/알고리즘/문제집/백준/07.Graph/DFS와 BFS.md",
+    "image/Screenshot_20231205-122908.png",
+    "CS/알고리즘/문제집/백준/06.DP/오르막 수.md",
+    "계획표/2023-12/2023-12-04.md",
+    "CS/알고리즘/문제집/LeetCode/02.String/6. Zigzag Conversion.md",
+    "CS/알고리즘/문제집/백준/07.Graph/스타트링크.md",
+    "image/Screenshot_20231204-141937_EDIT_1701667267434.png",
+    "image/Screenshot_20231204-141748_EDIT_1701667285313.png",
+    "백조의 호수.md",
+    ".md",
     "obsidian-til",
     "계획표/2023-10/2023-10.md",
     "계획표/2023-10/2023-10-07.md",
@@ -167,43 +199,17 @@
     "계획표",
     "2023-10.md",
     "2023-10-04.md",
-    "CS/네트워크/OSI 7계층.md",
-    "CS/알고리즘/2023.09.29(금).md",
     "CS/알고리즘/Untitled.canvas",
-    "CS/알고리즘/그래프/그래프.md",
     "CS/운영체제/Untitled.canvas",
     "image/Pasted image 20230923173357.png",
-    "CS/컴퓨터 공학.md",
     "image",
     "image/Pasted image 20231005080729.png",
-    "계획표/주간/주간.md",
-    "계획표/일간/일간.md",
-    "계획표/월간/월간.md",
-    "private/게임 아이디어/단순 아이디어.md",
     "계획표/Untitled.canvas",
-    "private/게임 아이디어/게임 아이디어.md",
     "private",
-    "2023-10-05.md",
-    "CS/알고리즘/투 포인터/투 포인터.md",
-    "CS/알고리즘/알고리즘.md",
     "CS/알고리즘/그래프/그래프.canvas",
-    "CS/알고리즘/투 포인터/누적 합을 위한 투 포인터.md",
-    "CS/알고리즘/그래프/플로이드 와샬.md",
-    "CS/알고리즘/그래프/벨만포드.md",
-    "CS/알고리즘/그래프/크루스칼 알고리즘.md",
-    "CS/알고리즘/그래프/다익스트라.md",
-    "sdfa.md",
-    "private/게임 아이디어/대사 관련.md",
-    "계획표/월간/2023-09.md",
-    "CS/알고리즘/투 포인터",
-    "CS/알고리즘/그래프",
-    "private/게임 아이디어",
     "GoDot/GoDot Canvas.canvas",
-    "GoDot/Godot's key concepts",
-    "GoDot",
     "Untitled.canvas",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "자료구조.canvas"
+    "Untitled 1.canvas"
   ]
 }
