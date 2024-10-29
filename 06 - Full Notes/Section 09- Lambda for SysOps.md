@@ -80,9 +80,6 @@
 - 전체 내용 접기
     - Lambda - Overview
         - Why AWS Lambda
-            
-            ![[image 6.png]]
-            
             **EC2**
             - Cloud의 가성 서버다.
             - RAM과 CPU가 제한된다.
@@ -90,51 +87,31 @@
             - 스케일링은 서버의 개수를 조절하는 것
             
             **Lambda**
-            
             - 가상 함수로 서버를 관리할 필요가 없다.
             - 시간 제한이 있다.
             - On-Demand로 실행된다.
             - 스케일링이 자동이다. (EC2는 ASG 그룹을 통해서 지원)
         - Benefits of AWS Lambda
-            
-            ![[image 1 3.png]]
-            
             - 쉬운 가격 정책
                 - 리퀘스트와 Compute time으로 요금 청구
             - 많은 AWS 서비스와 통합해서 사용 가능하다.
             - 많은 프로그래밍 언어와 통합해서 사용 가능하다.
             - RAM 크기를 증가시키면 CPU와 네트워크도 향상된다.
         - AWS Lambda Language support
-            
-            ![[image 2 3.png]]
-            
             **AWS Lambda 지원 언어**
-            
             - Python, Java 등 다양한 언어
             - Lambda Container Image
                 - Lambda Runtime API를 구현하는 Container Image를 사용 가능하다.
                 - 단, 임의의 Docker Image 실행하는데는 보통 ECS/Fargate가 선호된다.
         - AWS Lambda Integrations Main ones
-            
             ![[image 3 2.png]]
-            
-              
-            
         - Example: Serverless Thumbnail creation
-            
             ![[image 4 2.png]]
-            
-              
-            
         - Example: Serverless CRON Job
-            
             ![[image 5 2.png]]
-            
             - EventBridge는 AWS의 리소스들을 이벤트를 통해 연결
         - AWS Lambda Pricing: example
-            
             ![[image 6 2.png]]
-            
             - Lambda의 비용 정책은?
                 - 호출 마다
                     - 1,000,000회는 무료이며 이후부턴 백만 번마다 $0.20 비용이 든다.
@@ -147,42 +124,29 @@
         - CloudWatch Events / EventBridge
             
             ![[image 7.png]]
-            
             - CRON이나 Rate로 EventBridge Rule을 설정해서 특정 주기로 Lambda 실행하기
             - CodePipeline을 관찰하다가 변경되면 Lambda 실행하기
     - Lambda & S3 Event Notifications
         - S3 Events Notifications
-            
             ![[image 8.png]]
-            
             - 만약, Non-versioned object에 2개 이상 파일 쓰기 요청이 들어오면 이벤트가 한 개만 전달 될 수도 있다.
             - 이러한 동일한 오브젝트에 쓰기 요청이 성공할 때마다 이벤트를 전달하고 싶으면 S3 Bucket에서 Object Versioning 옵션을 활성화해라. (파일의 버전이 생성됨)
         - Simple S3 Event Pattern - Metadata Sync
-            
             ![[image 9.png]]
-            
-              
-            
     - Lambda Permissions - IAM Roles & Resource Policies
         - Lambda Execution Role (IAM Role)
-            
             ![[image 10.png]]
-            
             - 람다에게 AWS 서비스나 리소스에 접근할 수 있는 권한을 부여
             - 제일 좋은 설정 방법은 Lambda 별로 Execution Role을 하나씩 주는 것입니다.
             - 이벤트 소스 매핑을 사용하여 람다를 호출할 때 람다는 event data를 읽기 위해 Execution Role을 사용합니다.
         - Lambda Resource Based Policies
-            
             ![[image 11.png]]
-            
             - IAM Principal이 Lambda 함수에 접근하려면:
                 - **IAM 정책**이 해당 Principal에게 접근을 허용해야 하거나
                 - **리소스 기반 정책**이 Lambda 함수에 대해 해당 Principal 또는 다른 AWS 서비스를 허용해야 합니다.
     - Lambda Monitoring & X-Ray Tracing
         - Lambda Logging & Monitoring
-            
             ![[image 12.png]]
-            
             - CloudWatch Logs
                 - 람다 실행 로그는 CloudWatch Logs에 기록된다.
                 - 람다가 로그를 작성하기 위해선 CloudWatch Execution Role이 있어야 한다.

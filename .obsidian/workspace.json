@@ -4,38 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d1a928cda7ea6eb",
+        "id": "8af7a0b8355f3d9e",
         "type": "tabs",
         "children": [
           {
-            "id": "ed9844952c3c0ece",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 - Full Notes/Section 03- EC2 for SysOps(1).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Section 03- EC2 for SysOps(1)"
-            },
-            "group": "667a488c5f4b508a"
-          }
-        ]
-      },
-      {
-        "id": "1d4d34205a29dd18",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "821fdc762543b7bd",
+            "id": "e14c54d2e7522749",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "06 - Full Notes/Section 03- EC2 for SysOps(1).md",
+                "file": "Untitled.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -58,16 +36,48 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6666666666666666,
+                  "scale": 0.2962962962962963,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Section 03- EC2 for SysOps(1)"
-            },
-            "group": "667a488c5f4b508a"
+              "title": "Graph of Untitled"
+            }
+          },
+          {
+            "id": "8c6b493956fea63f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 - Full Notes/Section 22- Network - Route53 - DNS.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Section 22- Network - Route53 - DNS"
+            }
+          },
+          {
+            "id": "c4160a08270713d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 - Full Notes/Section 11- Amazon S3 Introduction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Section 11- Amazon S3 Introduction"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,24 +91,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c5fe7d675e44c7d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
             "id": "a77687cd1630097c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "환경 구축을 위한",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,43 +118,7 @@
             }
           },
           {
-            "id": "1a3996051bdb100a",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "8405db8840b8a655",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "6dfa4a4958338f26",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "0b97814b88f13f1d",
+            "id": "3a83196f0adf5bdc",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
@@ -165,11 +127,12 @@
               "title": "Spaces"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 380.5
   },
   "right": {
     "id": "d7fdcfeb3a497b5a",
@@ -185,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "계획표/2023-12/2023-12-08.md",
+                "file": "06 - Full Notes/Section 20- Security and Compliance for SysOps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2023-12-08"
+              "title": "Backlinks for Section 20- Security and Compliance for SysOps"
             }
           },
           {
@@ -204,12 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "계획표/2023-12/2023-12-08.md",
+                "file": "06 - Full Notes/Section 20- Security and Compliance for SysOps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2023-12-08"
+              "title": "Outgoing links from Section 20- Security and Compliance for SysOps"
             }
           },
           {
@@ -231,13 +194,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "계획표/2023-12/2023-12-08.md"
+                "file": "06 - Full Notes/Section 20- Security and Compliance for SysOps.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2023-12-08"
+              "title": "Outline of Section 20- Security and Compliance for SysOps"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -255,47 +219,47 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ed9844952c3c0ece",
+  "active": "985298e52b709099",
   "lastOpenFiles": [
+    "03 - Tags/Route53.md",
+    "06 - Full Notes/Section 22- Network - Route53 - DNS.md",
+    "06 - Full Notes/Section 11- Amazon S3 Introduction.md",
+    "06 - Full Notes/Authentication vs Authorization.md",
+    "05 - Template/필기 템플릿.md",
+    "05 - Template/Study Template.md",
+    "06 - Full Notes/Section 21- Identity (3).md",
+    "06 - Full Notes/Section 21- Identity (1).md",
+    "06 - Full Notes/SSO(Single Sign On).md",
+    "06 - Full Notes/SAML이란?.md",
+    "03 - Tags/AWS Cognito.md",
+    "06 - Full Notes/Section 21- Identity (2).md",
+    "image/Pasted image 20241029143259.png",
+    "image/Pasted image 20241029143223.png",
+    "image/Pasted image 20241029143137.png",
+    "03 - Tags/Ultimate AWS Certified SysOps Administrator Associate 2024.md",
+    "image/Pasted image 20241029134348.png",
+    "03 - Tags/AWS STS.md",
+    "image/Pasted image 20241029133205.png",
+    "image/Pasted image 20241029111607.png",
+    "image/Pasted image 20241029111339.png",
+    "05 - Template/일일계획표.md",
+    "image/Pasted image 20241029110019.png",
+    "image/Pasted image 20241029105811.png",
+    "image/Pasted image 20241029105607.png",
+    "AWS_Certified_SysOps_Slides_v31_page-0606.jpg.md",
+    "06 - Full Notes/06 - Full Notes.md",
+    "AWS_Certified_SysOps_Slides_v31_page-0605.jpg.md",
+    "03 - Tags/Authentication.md",
+    "06 - Full Notes/Section 09- Lambda for SysOps.md",
+    "image/image.md",
+    "06 - Full Notes/Section 20- Security and Compliance for SysOps.md",
+    "06 - Full Notes/Section 03- EC2 for SysOps(1).md",
     "04 - Indexes/AWS Index.md",
     "06 - Full Notes/Section 17- Monitoring, Auditing and Performance.md",
-    "03 - Tags/Ultimate AWS Certified SysOps Administrator Associate 2024.md",
     "06 - Full Notes/Section 15- CloudFront.md",
-    "03 - Tags/CloudFront.md",
-    "03 - Tags/AWS.md",
-    "06 - Full Notes/Section 14- Advanced Storage Section.md",
-    "06 - Full Notes/Linux nmap(network map).md",
-    "06 - Full Notes/AWS SysOPS 총 정리.md",
-    "06 - Full Notes/Dockerfile 관련.md",
-    "03 - Tags/Tech News.md",
-    "03 - Tags/Vagrant.md",
-    "06 - Full Notes/Docker 네트워크.md",
-    "06 - Full Notes/쿠버네티스 포트폴리오 계획.md",
-    "포트폴리오.md",
-    "06 - Full Notes/새싹 - AWS CLI.md",
-    "03 - Tags/DFS.md",
-    "06 - Full Notes/새싹 - IAM.md",
-    "06 - Full Notes/Bash 쉘 프로그래밍.md",
-    "01 - Rough Notes/01 - Rough Notes.md",
-    "06 - Full Notes/내가 만든 AWS 퀴즈.md",
-    "03 - Tags/YAML.md",
-    "06 - Full Notes/gRPC vs Rest API.md",
-    "03 - Tags/gRPC.md",
-    "03 - Tags/Rest API.md",
-    "03 - Tags/Protocol.md",
     "CI",
     "03 - Tags/그래프.canvas",
-    "image/image 12.png",
     "06 - Full Notes/context.mdb",
-    "image/Untitled_(1).png",
-    "image/Untitled 36.png",
-    "image/Untitled 35.png",
-    "image/Untitled 34.png",
-    "image/Untitled 33.png",
-    "image/Untitled 32.png",
-    "image/Untitled 31.png",
-    "image/Untitled 30.png",
-    "image/Untitled 29.png",
     "image/echo",
     "echo",
     "06 - Full Notes/Sesac 금천 캠퍼스 교육/퀴즈 애플리케이션/프로젝트 계획서",

@@ -35,19 +35,16 @@
 [[AWS]] [[Ultimate AWS Certified SysOps Administrator Associate 2024]] [[AWS Security]]
 
 ### 단서 질문
-
-- 질문1
-
+- ㅇㅇ
+	
+- ㅇㅇ
+- 
 ### 핵심 필기
 
-- 전체 내용 접기
-    - **Shared Responsibility Model (최소 2~3개 문제 나옴)**
-        - Shared Responsibility Model
-            
+- # 전체 내용 접기
+	- **Shared Responsibility Model**
             ![[AWS_Certified_SysOps_Slides_v31_page-0546.jpg]]
-            
-            AWS Shared Responsibility Model
-            
+            **AWS Shared Responsibility Model**
             - AWS의 책임 - 클라우드의 보안
                 - AWS 서비스를 돌리는 인프라 구조를 보호한다.
                 - 관련 서비스로는 S3, DynamoDB, RDS 등이 있다.
@@ -56,29 +53,23 @@
                 - 어플리케이션 데이터 암호화도 사용자의 책임이다.
             - Shared Controls:
                 - Patch, 설정은 소비자와 AWS 모두 Control이 있으므로 각자 책임이다.
-        - Example, for RDS
-            
-            ![[AWS_Certified_SysOps_Slides_v31_page-0547.jpg]]
-            
-            RDS 책임 예시
-            
-            - AWS
-                - 기반이 되는 EC2 인스턴스의 SSH disable
-                - DB 업데이트 자동
-                - OS 업데이트 자동
-                - 기반이 되는 인스턴스와 함수 실행을 보장
-            - 소비자의 책임
-                - 포트, sg 확인
-                - 데이터베이스의 유저 생성과 권한
-                - public access 허용 여부
-                - Parameter group이나 DB가 SSL 접속만 허용하기
-                - 데이터베이스 암호화 설정
-        - Example, for S3
-            
+			- Example, for RDS
+	            ![[AWS_Certified_SysOps_Slides_v31_page-0547.jpg]]
+	            RDS 책임 예시
+	            - AWS
+	                - 기반이 되는 EC2 인스턴스의 SSH disable
+	                - DB 업데이트 자동
+	                - OS 업데이트 자동
+	                - 기반이 되는 인스턴스와 함수 실행을 보장
+	            - 소비자의 책임
+	                - 포트, sg 확인
+	                - 데이터베이스의 유저 생성과 권한
+	                - public access 허용 여부
+	                - Parameter group이나 DB가 SSL 접속만 허용하기
+	                - 데이터베이스 암호화 설정
+	        - Example, for S3
             ![[AWS_Certified_SysOps_Slides_v31_page-0548.jpg]]
-            
             S3 책임 예시
-            
             - AWS 책임
                 - 무제한 용량을 보장
                 - 암호화 보장
@@ -89,25 +80,15 @@
                 - 버켓 정책과 public 설정
                 - IAM 사용자와 역할 설정
                 - 암호화 설정
-        - Shared Responsibility Model
-            
+	        - Shared Responsibility Model
             ![[AWS_Certified_SysOps_Slides_v31_page-0549.jpg]]
-            
-              
-            
-    - [CCP] DDoS, AWS Shield and AWS WAF
+	- [CCP] DDoS, AWS Shield and AWS WAF
         - What’s a DDOS Attack
-            
             ![[AWS_Certified_SysOps_Slides_v31_page-0550.jpg]]
-            
             DDoS란 Distributed Denial-of-Service로 공격자가 수많은 마스터 노드로부터 수많은 봇을 사용하여 서버를 공격한다. 서버는 트래픽이 넘치고 이는 일반 사용자에게 Denial of Service라는 에러 메시지를 받게 한다.
-            
         - DDoS Protection on AWS
-            
             ![[AWS_Certified_SysOps_Slides_v31_page-0551.jpg]]
-            
             DDoS Protection on AWS
-            
             - AWS Shield Standard: 웹사이트와 어플리케이션의 DDoS 방지를 해준다. 추가비용x
             - AWS Shiled Advanced: 매일 DDoS 공격을 막는다.
             - AWS WAF: 특정 패킷을 필터링한다.
@@ -116,17 +97,10 @@
                 - AWS 쉴드랑 조합해서 Edge에서 공격을 완화할 수 있다.
             - DDoS를 대비해서 오토스케일링을 해야 한다.
         - AWS DDoS 방지 아키텍처
-            
             ![[AWS_Certified_SysOps_Slides_v31_page-0552.jpg]]
-            
-              
-            
-        - AWS Shield
-            
+	- AWS Shield
             ![[AWS_Certified_SysOps_Slides_v31_page-0553.jpg]]
-            
             **AWS Shield**
-            
             - **AWS Shield Standard:**
                 - 모든 사용자에게 무료
                 - SYN/UDP 플러드, 리플렉션 공격, L3/L4 계층 공격으로부터 보호한다.
@@ -134,284 +108,186 @@
                 - 옵션으로 디도스 완화 서비스를 제공합니다. (조직 한 달 당 $3,000)
                 - EC2, ELB, CloudFront, AWS Global Accelerator, Route53 서비스를 향한 정교한 공격도 막아줍니다.
                 - 24/7 DDoS response team과 연결 가능합니다.
-                - DDoS 공격으로 인해 발생하는 spike 트래픽으로 인한 높은 비용으로부터 막아줍니다.
-        - AWS WAF - Web Application Firewall
-            
-            ![[AWS_Certified_SysOps_Slides_v31_page-0554.jpg]]
-            
-            **AWS WAF - Web Application Firewall**
-            
-            - 웹 취약점으로부터 웹어플리케이션을 보호합니다.
-            - L7 Http, L4 TCP입니다.
-            - HTTP 프로토콜을 사용하므로 HTTP 프로토콜 친화적인 ALB, API Gateway, CloudFront에서 사용 가능합니다.
-            
-              
-            
-            - Web ACL을 정의합니다.
-                - IP 주소, HTTP 헤더, HTTP body, URL 문자열을 통해서 접근을 제한 가능합니다.
-                - SQL Injection고 XSS 공격을 방지합니다.
-                - 요청 사이즈 제한과 지역을 제한이 가능합니다.
-                - 평가 기반 규칙 (시간당 요청 개수 등) - DDoS 방지용
-        - Penetration Testing on AWS Cloud
-            - Penetration Testing on AWS Cloud (1)
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0555.jpg]]
-                
-                  
-                
-            - Penetration Testing on AWS Cloud (2)
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0556.jpg]]
-                
-                  
-                
-            - 시험에 나오는 부분
-                
-                - AWS는 침입 테스트를 몇몇 리소스에 허용한다.
-                - 단, DDoS와 같은 몇몇 특정 테스트는 금지됐다. 허가 받고 진행해야함.
-                
-                  
-                
-        - Amazon Inspector
-            
-            - Amazon Inspector
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0557.jpg]]
-                
-                Amazon Inspector
-                
-                - 보안 평가 자동화
-                - EC2 인스턴스에서 평가할 때는
-                    - AWS System Manager (SSM) agent를 이용한다.
-                    - 의도되지 않은 네트워크 접근이 가능한지 분석한다.
-                    - 실행되는 OS의 취약점을 분석한다.
-                - ECR에 등록되는 Container Image 평가할 때는
-                    - 푸시되는 Container 이미지를 평가한다.
-                - Lambda 평가할 때는
-                    - 코드와 의존 패키지에 취약점을 분석한다.
-                    - 람다가 배포될 때 검사합니다.
-                
-                  
-                
-                - 보고 & 통합은 Security Hub와 진행한다.
-                - 결과물을 Amazon EventBridge로 전달한ㄷ.
-            - What does Amazon Inspector evaluate?
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0558.jpg]]
-                
-                **Amazon Inspector가 검사하는 항목들**
-                
-                - **중요!!** EC2 인스턴스, Container Image, 람다
-                - 필요할 때 인프라의 지속적 스캔
-                
-                  
-                
-                - CVE(Common Vulnerabilities and Exposure) 데이터베이스 내용을 통해서 패키지 취약점을 검사합니다.
-                - EC2의 네트워크 reachability
-            
-              
-            
-        - Logging in AWS
-            
-            ![[AWS_Certified_SysOps_Slides_v31_page-0559.jpg]]
-            
-            **Logging in AWS for security and compliance**
-            
-            - 규정 준수를 돕기 위해서 AWS에선 서비스 특화 로그와 검사 로그를 제공합니다.
-            - 다양한 서비스 로그를 지원합니다.
-        - Amazon GuardDuty
-            
-            - Amazon GuardDuty (1)
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0560.jpg]]
-                
-                  
-                
-            - Amazon GuardDuty (2)
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0561.jpg]]
-                
-                  
-                
-            
-              
-            
-        - AWS Macie
-            
-            ![[AWS_Certified_SysOps_Slides_v31_page-0562.jpg]]
-            
-              
-            
-        - Trusted Advisor
-            
-            ![[AWS_Certified_SysOps_Slides_v31_page-0563.jpg]]
-            
-              
-            
-        - Encryption 101
-            - Why encryption? Encryption in flight (TLS / SSL)
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0564.jpg]]
-                
-                  
-                
-            - Why encryption? Server-side encryption at rest
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0565.jpg]]
-                
-                  
-                
-            - Why encryption? Client-side encryption
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0566.jpg]]
-                
-                  
-                
-        - KMS
-            
-            - a
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0567.jpg]]
-                
-                - **CloudTrail로 KMS Key 사용처를 검사할 수 있다. (시험 가능성 높음)**
-                
-            - b
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0568.jpg]]
-                
-                  
-                
-            - c
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0569.jpg]]
-                
-                  
-                
-            - d
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0570.jpg]]
-                
-                  
-                
-            - e
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0571.jpg]]
-                
-                  
-                
-            
-              
-            
-            - f
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0572.jpg]]
-                
-                  
-                
-        - KMS Key Rotation
-            - KMS Automatic Key Rotation
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0573.jpg]]
-                
-                  
-                
-            - KMS On-Demand Key Rotation
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0574.jpg]]
-                
-                  
-                
-            - KMS Manual Key Rotation (Customer-Managed Symmetric KMS Key & Imports)
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0575.jpg]]
-                
-                  
-                
-            - KMS Alias Updating
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0576.jpg]]
-                
-                  
-                
-            - KMS for SysOps
-                
-                - a
-                    
-                    ![[AWS_Certified_SysOps_Slides_v31_page-0577.jpg]]
-                    
-                      
-                    
-                - b
-                    
-                    ![[AWS_Certified_SysOps_Slides_v31_page-0578.jpg]]
-                    
-                      
-                    
-                - c
-                    
-                    ![[AWS_Certified_SysOps_Slides_v31_page-0579.jpg]]
-                    
-                      
-                    
-                - d
-                    
-                    ![[AWS_Certified_SysOps_Slides_v31_page-0580.jpg]]
-                    
-                      
-                    
-                
-                  
-                
-        - CloudHSM
-            
-            - CloudHSM
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0581.jpg]]
-                
-                **CloudHSM**
-                
-                - KMS는 소프트웨어 암호화를 관리한다면 CloudHSM은 암호화 하드웨어를 제공합니다.
-                - 암호화를 위한 Key는 KMS와 달리 사용자가 관리합니다.
-                - SSE-C 암호화를 사용할 때 고려할만한 좋은 방법이다.
-            - CloudHSM Diagram
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0582.jpg]]
-                
-                  
-                
-            - CloudHSM - HA
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0583.jpg]]
-                
-                  
-                
-            - CloudHSM - Integration with AWS Services
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0584.jpg]]
-                
-                  
-                
-            - CloudHSM vs KMS
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0585.jpg]]
-                
-                  
-                
-                ![[AWS_Certified_SysOps_Slides_v31_page-0586.jpg]]
-                
-                  
-                
-                  
-                
-            
-              
-            
-        - AWS Artifact Overview
+			- DDoS 공격으로 인해 발생하는 spike 트래픽으로 인한 높은 비용으로부터 막아줍니다.
+	- AWS WAF - Web Application Firewall
+		![[AWS_Certified_SysOps_Slides_v31_page-0554.jpg]]
+		**AWS WAF - Web Application Firewall**
+		- 웹 취약점으로부터 웹어플리케이션을 보호합니다.
+		- L7 Http, L4 TCP입니다.
+		- HTTP 프로토콜을 사용하므로 HTTP 프로토콜 친화적인 ALB, API Gateway, CloudFront에서 사용 가능합니다.
+		
+		- Web ACL을 정의합니다.
+			- IP 주소, HTTP 헤더, HTTP body, URL 문자열을 통해서 접근을 제한 가능합니다.
+			- SQL Injection고 XSS 공격을 방지합니다.
+			- 요청 사이즈 제한과 지역을 제한이 가능합니다.
+			- 평가 기반 규칙 (시간당 요청 개수 등) - DDoS 방지용
+	- Penetration Testing on AWS Cloud
+		- Penetration Testing on AWS Cloud (1)
+			![[AWS_Certified_SysOps_Slides_v31_page-0555.jpg]]
+		- Penetration Testing on AWS Cloud (2)
+			![[AWS_Certified_SysOps_Slides_v31_page-0556.jpg]]
+		- 시험에 나오는 부분
+			- AWS는 침입 테스트를 몇몇 리소스에 허용한다.
+			- 단, DDoS와 같은 몇몇 특정 테스트는 금지됐다. 허가 받고 진행해야함.
+	- Amazon Inspector
+		- Amazon Inspector
+			![[AWS_Certified_SysOps_Slides_v31_page-0557.jpg]]
+			
+			Amazon Inspector
+			- 보안 평가 자동화
+			- EC2 인스턴스에서 평가할 때는
+				- AWS System Manager (SSM) agent를 이용한다.
+				- 의도되지 않은 네트워크 접근이 가능한지 분석한다.
+				- 실행되는 OS의 취약점을 분석한다.
+			- ECR에 등록되는 Container Image 평가할 때는
+				- 푸시되는 Container 이미지를 평가한다.
+			- Lambda 평가할 때는
+				- 코드와 의존 패키지에 취약점을 분석한다.
+				- 람다가 배포될 때 검사합니다.
+			- 보고 & 통합은 Security Hub와 진행한다.
+			- 결과물을 Amazon EventBridge로 전달한ㄷ.
+		- What does Amazon Inspector evaluate?
+			![[AWS_Certified_SysOps_Slides_v31_page-0558.jpg]]
+			
+			**Amazon Inspector가 검사하는 항목들**
+			- **중요!!** EC2 인스턴스, Container Image, 람다
+			- 필요할 때 인프라의 지속적 스캔
+			
+			- CVE(Common Vulnerabilities and Exposure) 데이터베이스 내용을 통해서 패키지 취약점을 검사합니다.
+			- EC2의 네트워크 reachability
+	- Logging in AWS
+		![[AWS_Certified_SysOps_Slides_v31_page-0559.jpg]]
+		
+		**Logging in AWS for security and compliance**
+		- 규정 준수를 돕기 위해서 AWS에선 서비스 특화 로그와 검사 로그를 제공합니다.
+		- 다양한 서비스 로그를 지원합니다.
+	- Amazon GuardDuty
+		
+		- Amazon GuardDuty (1)
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0560.jpg]]
+			
+			  
+			
+		- Amazon GuardDuty (2)
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0561.jpg]]
+	- AWS Macie
+		![[AWS_Certified_SysOps_Slides_v31_page-0562.jpg]]
+	- Trusted Advisor
+		![[AWS_Certified_SysOps_Slides_v31_page-0563.jpg]]
+	- Encryption 101
+		- Why encryption? Encryption in flight (TLS / SSL)
+			![[AWS_Certified_SysOps_Slides_v31_page-0564.jpg]]
+		- Why encryption? Server-side encryption at rest
+			![[AWS_Certified_SysOps_Slides_v31_page-0565.jpg]]
+		- Why encryption? Client-side encryption
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0566.jpg]]
+	- KMS
+		- a
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0567.jpg]]
+			
+			- **CloudTrail로 KMS Key 사용처를 검사할 수 있다. (시험 가능성 높음)**
+		- b
+			![[AWS_Certified_SysOps_Slides_v31_page-0568.jpg]]
+		- c
+			![[AWS_Certified_SysOps_Slides_v31_page-0569.jpg]]
+		- d
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0570.jpg]]
+		- e
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0571.jpg]]
+		- f
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0572.jpg]]
+	- KMS Key Rotation
+		- KMS Automatic Key Rotation
+			![[AWS_Certified_SysOps_Slides_v31_page-0573.jpg]]
+		- KMS On-Demand Key Rotation
+			![[AWS_Certified_SysOps_Slides_v31_page-0574.jpg]]
+		- KMS Manual Key Rotation (Customer-Managed Symmetric KMS Key & Imports)
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0575.jpg]]
+		- KMS Alias Updating
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0576.jpg]]
+		- KMS for SysOps
+			- a
+				![[AWS_Certified_SysOps_Slides_v31_page-0577.jpg]]
+			- b
+				
+				![[AWS_Certified_SysOps_Slides_v31_page-0578.jpg]]
+			- c
+				![[AWS_Certified_SysOps_Slides_v31_page-0579.jpg]]
+			- d
+				
+				![[AWS_Certified_SysOps_Slides_v31_page-0580.jpg]]
+	- CloudHSM
+		- CloudHSM
+			![[AWS_Certified_SysOps_Slides_v31_page-0581.jpg]]
+			
+			**CloudHSM**
+			
+			- KMS는 소프트웨어 암호화를 관리한다면 CloudHSM은 암호화 하드웨어를 제공합니다.
+			- 암호화를 위한 Key는 KMS와 달리 사용자가 관리합니다.
+			- SSE-C 암호화를 사용할 때 고려할만한 좋은 방법이다.
+		- CloudHSM Diagram
+
+			![[AWS_Certified_SysOps_Slides_v31_page-0582.jpg]]
+		- CloudHSM - HA
+			![[AWS_Certified_SysOps_Slides_v31_page-0583.jpg]]
+		- CloudHSM - Integration with AWS Services
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0584.jpg]]
+		- CloudHSM vs KMS
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0585.jpg]]
+			
+			  
+			
+			![[AWS_Certified_SysOps_Slides_v31_page-0586.jpg]]
+	- AWS Artifact Overview
+		- AWS Artifact (not really a service)
+			![[AWS_Certified_SysOps_Slides_v31_page-0587.jpg]]
+			**AWS Artifact (서비스가 아니다)**
+			- AWS 규약 문서랑 동의서에 on-demand로 접근이 가능하다.
+			- Artifact Reports - AWS Security와 규약 문서를 서드 파티 심사자로부터 받을 수 있다. 예: AWS ISO Certifications, Payment Card Industry (PCI), 시스템 조직 관리 (SOC) 리포트
+			- Artifact Agreements - 
+	- AWS Certificate Manager Overview (ACM)
+		- AWS Certificate Manager (ACM)
+		    ![[AWS_Certified_SysOps_Slides_v31_page-0588.jpg]]
+			**AWS Certificate Manager (ACM)**
+			- TLS 인증서를 쉽게 프로비저닝, 관리, 배포가 가능하다.
+			- TLS 인증서를 통해서 HTTPS 암호화가 가능하다.
+			- public과 private TLS 인증서를 지원한다.
+			- public TLS 인증서는 무료다.
+			- 자동으로 TLS 인증서를 갱신한다.
+			- 다음과 같은 서비스들과 같이 사용 가능하다.
+				- ELB
+				- CloudFront
+				- API GateWay
+			- EC2엔 사용 불가능하다.
+		- ACM - Requesting Public Certificates
+			[[AWS_Certified_SysOps_Slides_v31_page-0589.jpg]]ACM - Requesting Public Certificates
+			1. 도메인들을 인증서 안에 작성해라
+				- FQDN
+				- Wildcard 도메인
+			2. 유효성 검증 방법을 선택해라: DNS나 Email
+				 - 자동화를 생각하면 DNS Validation이 선호된다.
+				 - Email을 선택하면 WHOIS 데이터베이스를 통해서 이메일을 전송한다.
+				 - DNS 유효성 검증은 DNS 설정의 CNAME에 의존한다.
+			 3. 허가 받는 데 몇 시간이 걸린다.
+			 4. Public 인증서는 자동으로 갱신된다.
+				 - 만료 60일 전에 인증서를 자동으로 갱신한다.
+		- ACM - Importing Public Certificates
     - 이미지
         
-        ![[AWS_Certified_SysOps_Slides_v31_page-0587.jpg]]
         
-        ![[AWS_Certified_SysOps_Slides_v31_page-0588.jpg]]
+        
+        
         
         ![[AWS_Certified_SysOps_Slides_v31_page-0589.jpg]]
         
