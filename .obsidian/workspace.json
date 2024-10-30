@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Section 22- Network - Route53 - Routing Policies.md",
+                "file": "06 - Full Notes/Section 22- Network - Route53 - Routing Policies.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -209,17 +209,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "985298e52b709099",
+  "active": "3a83196f0adf5bdc",
   "lastOpenFiles": [
-    "Section 22- Network - Route53 - Route53.md",
-    "Section 22- Network - Route53 - Routing Policies.md",
     "06 - Full Notes/Section 22- Network - Route53 - DNS.md",
-    "Pasted image 20241030215558.png",
+    "06 - Full Notes/Section 22- Network - Route53 - Routing Policies.md",
+    "06 - Full Notes/Section 22- Network - Route53 - Route53.md",
+    "image/Pasted image 20241030215558.png",
     "03 - Tags/Route53.md",
-    "Pasted image 20241030215142.png",
-    "Pasted image 20241030205936.png",
-    "Pasted image 20241030205141.png",
-    "Pasted image 20241030205031.png",
+    "image/Pasted image 20241030215142.png",
+    "image/Pasted image 20241030205936.png",
+    "image/Pasted image 20241030205141.png",
+    "image/Pasted image 20241030205031.png",
     "03 - Tags/Database.md",
     "03 - Tags/NoSQL.md",
     "03 - Tags/Linux Tool.md",
@@ -227,11 +227,11 @@
     "03 - Tags/Linux.md",
     "06 - Full Notes/Network Snort(NIDS 툴).md",
     "06 - Full Notes/NoSQL은 왜 존재할까? (MongoDB, Cassandra).md",
-    "Pasted image 20241030193509.png",
-    "Pasted image 20241030192011.png",
-    "Pasted image 20241030191437.png",
-    "Pasted image 20241030191107.png",
-    "Pasted image 20241030190506.png",
+    "image/Pasted image 20241030193509.png",
+    "image/Pasted image 20241030192011.png",
+    "image/Pasted image 20241030191437.png",
+    "image/Pasted image 20241030191107.png",
+    "image/Pasted image 20241030190506.png",
     "새싹 Agile Kaban.md",
     "06 - Full Notes/Section 11- Amazon S3 Introduction.md",
     "06 - Full Notes/최종 팀프로젝트.md",
