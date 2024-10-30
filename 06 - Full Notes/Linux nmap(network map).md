@@ -4,7 +4,7 @@
   - Network
   - Tool
 ---
-[[Linux]] [[Linux Network Tool]] [[03 - Tags/Network]] 
+[[Linux Tool]] [[Linux Network Tool]] [[03 - Tags/Network]] 
 nmap : 네트워크 툴로 해당 주소에 열려있는 포트를 확인하는 데에 사용한다.
 
 ```Shell

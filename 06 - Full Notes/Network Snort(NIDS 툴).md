@@ -4,7 +4,7 @@
   - Network
   - Tool
 ---
-[[Linux]] [[Linux Network Tool]] [[Security]]
+[[Linux Tool]] [[Linux Network Tool]] [[Security]]
 # Snort
 
 NIDS 툴. 해커들이 침투를 탐지하기 위해 사용하는 도구다.
