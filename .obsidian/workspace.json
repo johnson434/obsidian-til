@@ -23,6 +23,21 @@
             }
           },
           {
+            "id": "65bc447850aa25bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 - Full Notes/Section 03- EC2 for SysOps(1).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Section 03- EC2 for SysOps(1)"
+            }
+          },
+          {
             "id": "8c6b493956fea63f",
             "type": "leaf",
             "pinned": true,
@@ -38,24 +53,30 @@
               "icon": "lucide-file",
               "title": "Section 22- Network - Route53 - DNS"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0ac226581c9f5f41",
+        "type": "tabs",
+        "children": [
           {
-            "id": "65bc447850aa25bf",
+            "id": "04bf7d40fc13ec90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Full Notes/Section 22- Network - Route53 - Routing Policies.md",
+                "file": "최종프로젝트 공지.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Section 22- Network - Route53 - Routing Policies"
+              "title": "최종프로젝트 공지"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,6 +132,30 @@
             "id": "64674e670e3aad0a",
             "type": "leaf",
             "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b397cb9efd87166d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "69e3a41eee11f420",
+            "type": "leaf",
+            "state": {
               "type": "mk-file-view",
               "state": {},
               "icon": "layout-grid",
@@ -118,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -209,13 +254,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "3a83196f0adf5bdc",
+  "active": "65bc447850aa25bf",
   "lastOpenFiles": [
+    "최종프로젝트 공지.md",
+    "image.md",
+    "06 - Full Notes/Section 03- EC2 for SysOps(1).md",
+    ".md",
     "06 - Full Notes/Section 22- Network - Route53 - DNS.md",
-    "06 - Full Notes/Section 22- Network - Route53 - Routing Policies.md",
     "06 - Full Notes/Section 22- Network - Route53 - Route53.md",
-    "image/Pasted image 20241030215558.png",
     "03 - Tags/Route53.md",
+    "06 - Full Notes/Section 22- Network - Route53 - Routing Policies.md",
+    "image/Pasted image 20241030215558.png",
     "image/Pasted image 20241030215142.png",
     "image/Pasted image 20241030205936.png",
     "image/Pasted image 20241030205141.png",
@@ -244,9 +293,6 @@
     "06 - Full Notes/SSO(Single Sign On).md",
     "06 - Full Notes/SAML이란?.md",
     "03 - Tags/AWS Cognito.md",
-    "06 - Full Notes/Section 21- Identity (2).md",
-    "03 - Tags/Ultimate AWS Certified SysOps Administrator Associate 2024.md",
-    "03 - Tags/AWS STS.md",
     "CI",
     "03 - Tags/그래프.canvas",
     "06 - Full Notes/context.mdb",
@@ -257,7 +303,6 @@
     "06 - Full Notes/Sesac 금천 캠퍼스 교육/미니프로젝트 3차 - AWS를 이용한 서비스 배포",
     "06 - Full Notes/Sesac 금천 캠퍼스 교육",
     "06 - Full Notes/학생을 위한 노션 활용 학습 및 복습 관리 시스템 템플릿/DB/복습시스템 데이터베이스/복습 시스템/환경 구축을 위한 쿠버네티스 도커 - 4.4 쿠버네티스에서 직접 만든 컨테이너 사용하기",
-    "06 - Full Notes/학생을 위한 노션 활용 학습 및 복습 관리 시스템 템플릿/DB/복습시스템 데이터베이스/복습 시스템/환경 구축을 위한 쿠버네티스 도커 - 4.1 ~ 4.3 쿠버네티스를 이루는 컨테이너 도우미, 도커",
     "그래프.canvas",
     "GoDot/GoDot Canvas.canvas",
     "Untitled 1.canvas",
