@@ -65,6 +65,7 @@
 
 ## 303. [SAA/DVA] CNAME vs Alias
 ### CNAME vs Alias
+- **공통점:** AWS Route53에서 제공하는 레코드 타입입니다.
 - AWS 리소스(LoadBalancer, CloudFront...)들은 AWS hostname을 노출합니다
 	- lb1-1234.us-east-2.elb.amazonaws.com을 myapp.mydomain.com 도메인으로 매핑하고 싶을 수 있습니다.
 - CNAME:
